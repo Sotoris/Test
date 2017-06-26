@@ -6,180 +6,202 @@ and open the template in the editor.
 -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-  <title>Starter Template - Materialize</title>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+        <title>Starter Template - Materialize</title>
 
-  <!-- CSS  -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/style_index.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-</head>
-<body>
-    <!-- Dropdown Structure -->
-<ul id="dropdown1" class="dropdown-content">
-  <li><a href="#!">one</a></li>
-  <li><a href="#!">two</a></li>
-  <li class="divider"></li>
-  <li><a href="#!">three</a></li>
-</ul>
-  <nav class="lighten-1" role="navigation">
-      <div class="row">
-    <div class="col s12 m4 l2"><div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Logo</a></div></div>
-    <div class="grid-example col s12 m6"><form>
-        <div class="input-field">
-          <input id="search" type="search" required>
-          <label class="label-icon" for="search"><i class="material-icons">search</i></label>
-          <i class="material-icons">close</i>
-        </div>
-      </form></div>
-   <div class="col s12 m4 l2">
-       <div class="nav-wrapper">
-    <ul class="right hide-on-med-and-down">
-      <li><a href="badges.html">Components</a></li>
-      <!-- Dropdown Trigger -->
-      <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
-    </ul>
-  </div>
- 
-   </div>
-    
-  </div>
-      
-     <div class="nav-wrapper">
-       <ul class="right hide-on-med-and-down">
-       <li><a href="#">Iniciar sesíon</a></li>
-      <!-- Dropdown Trigger -->
-      <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Rep. dom./$DOP<i class="material-icons right">arrow_drop_down</i></a></li>
-    </ul>
-   </div>
-  </nav>
-  <div class="section no-pad-bot" id="index-banner">
-    <div class="container">
-      <div class="row">
-    <form class="col s12">
-      <div class="row">
-        <div class="input-field col s6">
-          <input placeholder="Placeholder" id="first_name" type="text" class="validate">
-          <label for="first_name">First Name</label>
-        </div>
-        <div class="input-field col s6">
-          <input id="last_name" type="text" class="validate">
-          <label for="last_name">Last Name</label>
-        </div>
-      </div>
-      <div class="row">
-        <div class="input-field col s12">
-          <input disabled value="I am not editable" id="disabled" type="text" class="validate">
-          <label for="disabled">Disabled</label>
-        </div>
-      </div>
-      <div class="row">
-        <div class="input-field col s12">
-          <input id="password" type="password" class="validate">
-          <label for="password">Password</label>
-        </div>
-      </div>
-      <div class="row">
-        <div class="input-field col s12">
-          <input id="email" type="email" class="validate">
-          <label for="email">Email</label>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col s12">
-          This is an inline input field:
-          <div class="input-field inline">
-            <input id="email" type="email" class="validate">
-            <label for="email" data-error="wrong" data-success="right">Email</label>
-          </div>
-        </div>
-      </div>
-    </form>
-  </div>
+        <!-- CSS  -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="css/style_index.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    </head>
+    <body>
+        <!-- Dropdown Structure -->
+        <ul id="dropdown1" class="dropdown-content">
+            <li><a href="#!">one</a></li>
+            <li><a href="#!">two</a></li>
+            <li class="divider"></li>
+            <li><a href="#!">three</a></li>
+        </ul>
+        <nav class="lighten-1" role="navigation">
+            <div class="row">
+                <div class="col s3"><div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Logo</a></div></div>
+                <div class="grid-example col s5"><form>
+                        <div class="input-field">
+                            <input id="search" type="search" required>
+                            <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                            <i class="material-icons">close</i>
+                        </div>
+                    </form></div>
+                <div class="col s4">          
+                    <div class="col s2"><a href="#">Iniciar sesíon</a></div>
+                    <div class="col s4">
+                        <ul class="right hide-on-med-and-down">
+                            <!-- Dropdown Trigger -->
+                            <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Rep. dom./$DOP<i class="material-icons right">arrow_drop_down</i></a></li>
+                        </ul>
+                    </div>
 
-    </div>
-  </div>
-
-
-
-  <footer class="page-footer ">
-    <div class="container">
-      <div class="row">
-        <div class="col l3 s12">
-          <h5 class="white-text">Acerca de nosotros</h5>
-          <ul>
-            <li><a class="white-text" href="#!">¿Quiénes somos?</a></li>
-            <li><a class="white-text" href="#!">Plataformas aliadas</a></li>
-            <li><a class="white-text" href="#!">¿Quieres ser plataforma aliada?</a></li>
-            <li><a class="white-text" href="#!">Registrate aqui</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">¿Quieres Ayduar?</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Ayuda y recibe algo a cambio</a></li>
-            <li><a class="white-text" href="#!">Ayuda sin recibir nada a cambio</a></li>
-            <li><a class="white-text" href="#!">Ayuda con sociedad</a></li>            
-          </ul>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Tipo de proyecto</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Arquitectura y urbanismo</a></li>
-            <li><a class="white-text" href="#!">Arte y cultura</a></li>
-            <li><a class="white-text" href="#!">Diseño</a></li>
-            <li><a class="white-text" href="#!">Ciencia y teconología</a></li>
-            <li><a class="white-text" href="#!">Ecología y medio ambiente</a></li>
-            <li><a class="white-text" href="#!">Metas personales</a></li>
-            <li><a class="white-text" href="#!">Social</a></li>
-          </ul>
-        </div>
-          <div class="col l3 s12">
-          <h5 class="white-text">Algunas etiquetas</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Agricultura</a></li>
-            <li><a class="white-text" href="#!">Alimentos</a></li>
-            <li><a class="white-text" href="#!">Artesanías</a></li>
-            <li><a class="white-text" href="#!">Baile</a></li>
-            <li><a class="white-text" href="#!">Ciencia y video</a></li>
-            <li><a class="white-text" href="#!">Deporte</a></li>
-            <li><a class="white-text" href="#!">Editorial</a></li>
-            <li><a class="white-text" href="#!">Educación</a></li>
-            <li><a class="white-text" href="#!">Emprendimiento</a></li>
-            <li><a class="white-text" href="#!">Energía</a></li>
-            <li><a class="white-text" href="#!">Eventos</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="footer-copyright">
-      <div class="container" style="border-top: solid; border-width: 1px;">
-        <div class="row">
-            <div class="col s12 m4 l8">
-                <ul>
-            <li>Avenida Meritem corrinyéssim</li>
-            <li>subinfeudaré, 271 18ºB</li>
-            <li></li>
-            <li>(01 55)55 12 34 56</li>
-            <li></li>            
-            <li>contact@mpcrowd.com</li>
-          </ul>
+                </div>
             </div>
-    <div class="col s12 m4 l2"><p>imagen</p></div>
-    <div class="col s12 m4 l2"><p>redes sociales</p></div>
-  </div>
-      </div>
-    </div>
-  </footer>
+        </nav>
+        <div class="section no-pad-bot" id="index-banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12">
+                        <div class="col s12 m4 l2"><p></p></div>
+                        <div class="col s12 m4 l8"><h5>Regístrate</h5></div>
+                        <div class="col s12 m4 l2"><p></p></div>
+                    </div>
+                    <div class="col s12">
+                        <div class="col s12 m4 l2"><p></p></div>
+                        <div class="col s12 m4 l8">
+                            <div class="col s4">
+                                <img src="imagenes/facebook.png" alt="Smiley face" height="42" width="42" id="fb"> 
+                            </div>
+                            <div class="col s4">
+                                <img src="imagenes/Twitter.png" alt="Smiley face" height="42" width="42" id="twitter">                 
+                            </div>
+                            <div class="col s4">
+                                <img src="imagenes/link.png" alt="Smiley face" height="42" width="42"id="ln">                 
+                            </div>
+                        </div>
+                        <div class="col s12 m4 l2"><p></p></div>
+                    </div>
+                    <div class="col s12">
+                        <div class="col s12 m4 l2"><p></p></div>
+                        <div class="col s12 m4 l8">
+                            <div class="col s4">
+                                <hr>
+                            </div>
+                            <div class="col s3">
+                                <center><p>o crear una cuenta</p></center>
+                            </div>
+                            <div class="col s4">
+                                <hr>
+                            </div>
+                        </div>
+                        <div class="col s12 m4 l2"><p></p></div>
+                    </div>
+                    <div class="col s12 m4 l2"><p></p></div>
+                    <div class="col s12 m4 l8">
+                        <div class="row">
+                            <form class="col s12">
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <input placeholder="Elige el país donde vives" id="country" type="text" class="validate">
+                                        <label for="first_name">PAÍS</label>
+                                    </div>
 
+                                    <div class="input-field col s12">
+                                        <input placeholder="Introduce tu nombre completo" id="name" type="text" class="validate">
+                                        <label for="first_name">Nombre y Apellido</label>
+                                    </div>
 
-  <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
+                                    <div class="input-field col s12">
+                                        <input placeholder="Introduce tu correo electrónico" id="email" type="email" class="validate">
+                                        <label for="email">Correo electrónico</label>
+                                    </div>
 
-  </body>
+                                    <div class="input-field col s12">
+                                        <input placeholder="Introduce tu contraseña" id="password" type="password" class="validate">
+                                        <label for="password">Contraseña</label>
+                                    </div>
+                                    <form action="#">
+                                        <p>
+                                            <input type="checkbox" id="test1" />
+                                            <label for="test1">Aceptar <a href="#">terminos y condiciones</a></label>
+                                        </p>
+                                        <p>
+
+                                        <center><a class="waves-effect waves-light btn">Registrate</a></center>
+                                        </p>
+                                        <p>
+                                            <input type="checkbox" id="test2" />
+                                            <label for="test2">Recibe el boletin informativo</label>
+                                        </p>                                       
+                                    </form>
+                                </div>
+                        </div>
+                        <div class="col s12 m4 l2"><p></p></div>
+                    </div>
+                </div>
+            </div>
+           <footer class="page-footer ">
+                <div class="container">
+                    <div class="row">
+                        <div class="col l3 s12">
+                            <h5 class="white-text">Acerca de nosotros</h5>
+                            <ul>
+                                <li><a class="white-text" href="#!">¿Quiénes somos?</a></li>
+                                <li><a class="white-text" href="#!">Plataformas aliadas</a></li>
+                                <li><a class="white-text" href="#!">¿Quieres ser plataforma aliada?</a></li>
+                                <li><a class="white-text" href="#!">Registrate aqui</a></li>
+                            </ul>
+                        </div>
+                        <div class="col l3 s12">
+                            <h5 class="white-text">¿Quieres Ayudar?</h5>
+                            <ul>
+                                <li><a class="white-text" href="#!">Ayuda y recibe algo a cambio</a></li>
+                                <li><a class="white-text" href="#!">Ayuda sin recibir nada a cambio</a></li>
+                                <li><a class="white-text" href="#!">Ayuda con sociedad</a></li>            
+                            </ul>
+                        </div>
+                        <div class="col l3 s12">
+                            <h5 class="white-text">Tipo de proyecto</h5>
+                            <ul>
+                                <li><a class="white-text" href="#!">Arquitectura y urbanismo</a></li>
+                                <li><a class="white-text" href="#!">Arte y cultura</a></li>
+                                <li><a class="white-text" href="#!">Diseño</a></li>
+                                <li><a class="white-text" href="#!">Ciencia y teconología</a></li>
+                                <li><a class="white-text" href="#!">Ecología y medio ambiente</a></li>
+                                <li><a class="white-text" href="#!">Metas personales</a></li>
+                                <li><a class="white-text" href="#!">Social</a></li>
+                            </ul>
+                        </div>
+                        <div class="col l3 s12">
+                            <h5 class="white-text">Algunas etiquetas</h5>
+                            <ul>
+                                <li><a class="white-text" href="#!">Agricultura</a></li>
+                                <li><a class="white-text" href="#!">Alimentos</a></li>
+                                <li><a class="white-text" href="#!">Artesanías</a></li>
+                                <li><a class="white-text" href="#!">Baile</a></li>
+                                <li><a class="white-text" href="#!">Ciencia y video</a></li>
+                                <li><a class="white-text" href="#!">Deporte</a></li>
+                                <li><a class="white-text" href="#!">Editorial</a></li>
+                                <li><a class="white-text" href="#!">Educación</a></li>
+                                <li><a class="white-text" href="#!">Emprendimiento</a></li>
+                                <li><a class="white-text" href="#!">Energía</a></li>
+                                <li><a class="white-text" href="#!">Eventos</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-copyright">
+                    <div class="container" style="border-top: solid; border-width: 1px;">
+                        <div class="row">
+                            <div class="col s12 m4 l8">
+                                <ul>
+                                    <li>Avenida Meritem corrinyéssim</li>
+                                    <li>subinfeudaré, 271 18ºB</li>
+                                    <li></li>
+                                    <li>(01 55)55 12 34 56</li>
+                                    <li></li>            
+                                    <li>contact@mpcrowd.com</li>
+                                </ul>
+                            </div>
+                            <div class="col s12 m4 l2"><p>imagen</p></div>
+                            <div class="col s12 m4 l2"><p>redes sociales</p></div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!--  Scripts-->
+            <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+            <script src="js/materialize.js"></script>
+            <script src="js/init.js"></script>
+
+    </body>
 </html>
